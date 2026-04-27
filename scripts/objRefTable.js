@@ -13,7 +13,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse,
 		C3.Behaviors.Rotate,
 		C3.Plugins.Keyboard.Cnds.IsKeyDown,
-		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.Sprite.Acts.MoveForward,
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.Sprite.Acts.MoveAtAngle,
@@ -37,6 +37,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Sprite.Acts.SetOpacity,
 		C3.Plugins.System.Exps.max,
+		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Exps.choose,
@@ -48,7 +49,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Acts.SetTimescale,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
-		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.System.Acts.StopLoop,
 		C3.Plugins.System.Acts.RestartLayout
 	];
