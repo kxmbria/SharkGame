@@ -49,7 +49,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Acts.SetTimescale,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
-		C3.Plugins.Touch.Cnds.OnTapGesture,
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.System.Acts.StopLoop,
 		C3.Plugins.System.Acts.RestartLayout
 	];
